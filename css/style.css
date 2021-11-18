@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 100%;
+}
+
+body{
+    background: linear-gradient(90deg, #0F2027, #203A43);
+    
+}
+
+/* Headder */
+header {
+    display: flex;
+}
+
+header ul{
+    display: flex;
+   
+}
+
+header ul li{
+    padding: 10px;
+}
+.box-1{
+    width: 100%;
+}
+
+.box-1 ul li a img {
+    padding: 5px;
+    width: 40%;
+}
+
+
+.header-anchors{ 
+    list-style: none;
+    font-size: 2vw; 
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;  
+    width: 100%;
+    align-items: baseline;
+}   
+
+ul li a p {
+    text-align:center;
+    /* padding:15px ; */
+}
+ul li a p:hover{
+    color: #3ef7f2;
+    transition: 1s;
+	text-decoration:underline;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 1000;
+    
+}
+
+
+/* Main */
+/* Section 1  */
+.container{
+    text-align: center;
+    display: flex !important;
+    flex-wrap: wrap;
+}
+.box-2{
+ order: 1;   
+ flex: 2;
+ margin: 5vw -10vw 0vw 10vw;
+}
+
+.foto-gbz{
+    width: 50%;
+    border-radius: 50%;
+    border-style: solid ;
+    border-color: #ffffff;
+    border-width: 3px;
+}
+.box-3{
+    order: 2;
+    flex: 4;
+    align-self: center;
+    margin: 2vw 12vw -5vw 0vw;
+}
+
+.box-4{
+    order: 3;
+}  
+.box-4 img{
+    width: 65%;
+    border: solid 5px rgba(172, 172, 172, 0.5);
+    margin: 2vw 0vw 0vw 0vw;
+    box-shadow: 0 20px 55px rgba(0,0,0,0.7);
+}
+
+.container .box-3 h1 {
+    font-size: 5vw;
+}
+.container .box-3 h5 {
+    font-size: 2vw;
+}
+
+/* Section 2 */
+
+.container-2{
+    text-align: center;
+    display: flex !important;
+    flex-wrap: wrap;
+}
+.box-5{
+    order: 1;
+    padding: 2vw;
+}
+.fas{
+    font-size: 4vw;
+}
+.box-6{
+    order: 2;
+
+}
+.box-6 p{
+    font-size: 2vw;
+
+}
+#about{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content:center;
+    
+}
+
+.logos-icones{
+    padding: 2vw;
+}
+
+.logos-icones img{
+    width: 5vw; 
+}
+
+
+.box-7{
+    order: 3;
+}
+.form{
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 2vw;
+}
+
+.form p {
+    font-size: 3.5vw;
+    margin: 0px 0px 5px 0px;
+}
+
+.form input{    
+    width: 50%;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    padding: 5px 0px 5px 10px;
+    font-size: 1.5vw;
+}
+.form input:focus-visible{
+    outline: none;
+}
+.form button {
+    width: 20%;
+    color: black;
+    background: orange;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    padding: 5px 10px 5px 10px;
+    margin-left: -5px;
+    font-size: 1.5vw;
+}
+
+.form button:hover{
+    background-color: chocolate;
+    cursor: pointer;
+    transition: 300ms;
+    color: white;
+}
