@@ -14,7 +14,7 @@
     /* Container 1 */
     .foto-gbz{
         width: 65%;
-        border-radius: 50%;
+        
         border-style: solid ;
         border-color: #ffffff;
         border-width: 3px;
@@ -25,7 +25,8 @@
     }
     .container .box-3 h5 {
         font-size: 2.75vw;
-        margin-top: 5px;
+        margin-top: 5px; 
+        margin-left: 3px;
     }
 
     /* Container-2 */
@@ -135,3 +136,7 @@ ul li a p{
     font-size: 3vw;
 }
 }
+
+
+
+

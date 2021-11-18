@@ -31,7 +31,7 @@ header ul li{
 
 .box-1 ul li a img {
     padding: 5px;
-    width: 40%;
+    width: 35%;
 }
 
 
@@ -76,11 +76,14 @@ a{
 
 .foto-gbz{
     width: 50%;
-    border-radius: 50%;
-    border-style: solid ;
-    border-color: #ffffff;
-    border-width: 3px;
+    border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(to left,#2C5364, #203A43 );
+   box-shadow: 0 20px 55px rgba(0,0,0,0.7);
 }
+ 
+
 .box-3{
     order: 2;
     flex: 4;
@@ -103,6 +106,7 @@ a{
 }
 .container .box-3 h5 {
     font-size: 2vw;
+    margin-top: 5px;
 }
 
 /* Section 2 */
@@ -158,7 +162,7 @@ a{
 
 .form p {
     font-size: 3.5vw;
-    margin: 0px 0px 5px 0px;
+    margin: 0px 0px 10px 0px;
 }
 
 .form input{    
