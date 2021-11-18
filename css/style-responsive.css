@@ -1,0 +1,137 @@
+@import url(style.css);
+
+/* responsividade celulares em geral*/
+
+@media only screen  and (max-width: 480px){
+    /* headder */
+    .box-1 ul li a img{
+        width: 100% !important;
+    }
+    ul li a p{
+       font-size:3vw !important; 
+    }
+
+    /* Container 1 */
+    .foto-gbz{
+        width: 65%;
+        border-radius: 50%;
+        border-style: solid ;
+        border-color: #ffffff;
+        border-width: 3px;
+    }
+    
+    .container .box-3 h1 {
+        font-size: 3.5vw;
+    }
+    .container .box-3 h5 {
+        font-size: 2.75vw;
+        margin-top: 5px;
+    }
+
+    /* Container-2 */
+    .fas{
+        font-size: 8vw !important;
+    }
+
+    .logos-icones img{
+        width: 10vw !important; 
+    }
+
+    #about{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .box-6 p{
+        font-size: 4vw !important;
+        text-align: justify !important;
+        padding: 0px 0px 10px 0px !important;
+    
+    }
+
+    .form p{
+        margin: 25px 0px !important;
+        font-size: 18px !important;
+
+    }
+
+    .form input{    
+        width: 70%;
+        border: none;
+        border-radius: 5px 0px 0px 5px;
+        padding: 5px 0px 5px 10px;
+        font-size: 2.5vw;
+        color: black;
+    }
+
+    .form button {
+        width: 30%;
+        color: black;
+        background: orange;
+        border: none;
+        border-radius: 0px 5px 5px 0px;
+        padding: 3px 0px 4px 0px !important;
+        margin-left: -5px;
+        font-size: 3vw;
+    }
+
+}
+
+/* responsividade tablets/ipad */
+
+@media only screen  and (max-width: 1024px) {
+/* headder */
+.box-1 ul li a img{
+    width: 65%;
+}
+ul li a p{
+   font-size:3vw ; 
+}
+
+/* container-1 */
+
+.container .box-3 h5 {
+    font-size: 2.75vw;
+    margin-top: 5px;
+}
+
+/* Container-2 */
+
+.fas{
+    font-size: 5vw;
+
+}
+
+.logos-icones img{
+    width: 8vw; 
+}
+.box-6 p{
+    font-size: 3vw;
+    text-align: justify;
+    margin: 15px 0px;
+}
+.form p{
+    margin: 25px 0px;
+    font-size: 18px;
+}
+
+.form input{    
+    width: 70%;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    padding: 5px 0px 5px 10px;
+    font-size: 2.5vw;
+    color: black;
+}
+
+.form button {
+    width: 30%;
+    color: black;
+    background: orange;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    padding: 1px 0px 4px 0px;
+    margin-left: -5px;
+    font-size: 3vw;
+}
+}
