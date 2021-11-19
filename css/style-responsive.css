@@ -1,14 +1,72 @@
 @import url(style.css);
 
-/* responsividade celulares em geral*/
+
+/* responsividade tablets/ipad */
+@media only screen  and (max-width: 1024px) {
+    /* headder */
+    .box-1 ul li a img{
+        width: 65%;
+    }
+    ul li a p{
+       font-size:3vw ; 
+    }
+    
+    /* container-1 */
+    
+    .container .box-3 h5 {
+        font-size: 2.75vw;
+        margin-top: 5px;
+    }
+    
+    /* Container-2 */
+    
+    .fas{
+        font-size: 5vw;
+    
+    }
+    
+    .logos-icones img{
+        width: 8vw; 
+    }
+    .box-6 p{
+        font-size: 3vw;
+        text-align: justify;
+        margin: 15px 0px;
+    }
+    .form p{
+        margin: 25px 0px;
+        font-size: 18px;
+    }
+    
+    .form input{    
+        width: 70%;
+        border: none;
+        border-radius: 5px 0px 0px 5px;
+        padding: 5px 0px 5px 10px;
+        font-size: 2.5vw;
+        color: black;
+    }
+    
+    .form button {
+        width: 30%;
+        color: black;
+        background: orange;
+        border: none;
+        border-radius: 0px 5px 5px 0px;
+        padding: 1px 0px 4px 0px;
+        margin-left: -5px;
+        font-size: 3vw;
+    }
+    }
+    /* responsividade celulares em geral*/
 
 @media only screen  and (max-width: 480px){
     /* headder */
     .box-1 ul li a img{
-        width: 100% !important;
+        width: 100;
     }
     ul li a p{
-       font-size:3vw !important; 
+       font-size:; 
     }
 
     /* Container 1 */
@@ -31,11 +89,11 @@
 
     /* Container-2 */
     .fas{
-        font-size: 8vw !important;
+        font-size: ;
     }
 
     .logos-icones img{
-        width: 10vw !important; 
+        width: ; 
     }
 
     #about{
@@ -44,15 +102,15 @@
     }
 
     .box-6 p{
-        font-size: 4vw !important;
-        text-align: justify !important;
-        padding: 0px 0px 10px 0px !important;
+        font-size: ;
+        text-align: ;
+        padding: 0px 0px 10px ;
     
     }
 
     .form p{
-        margin: 25px 0px !important;
-        font-size: 18px !important;
+        margin: 25px ;
+        font-size: ;
 
     }
 
@@ -71,71 +129,13 @@
         background: orange;
         border: none;
         border-radius: 0px 5px 5px 0px;
-        padding: 3px 0px 4px 0px !important;
+        padding: 3px 0px 4px ;
         margin-left: -5px;
         font-size: 3vw;
     }
 
 }
 
-/* responsividade tablets/ipad */
-
-@media only screen  and (max-width: 1024px) {
-/* headder */
-.box-1 ul li a img{
-    width: 65%;
-}
-ul li a p{
-   font-size:3vw ; 
-}
-
-/* container-1 */
-
-.container .box-3 h5 {
-    font-size: 2.75vw;
-    margin-top: 5px;
-}
-
-/* Container-2 */
-
-.fas{
-    font-size: 5vw;
-
-}
-
-.logos-icones img{
-    width: 8vw; 
-}
-.box-6 p{
-    font-size: 3vw;
-    text-align: justify;
-    margin: 15px 0px;
-}
-.form p{
-    margin: 25px 0px;
-    font-size: 18px;
-}
-
-.form input{    
-    width: 70%;
-    border: none;
-    border-radius: 5px 0px 0px 5px;
-    padding: 5px 0px 5px 10px;
-    font-size: 2.5vw;
-    color: black;
-}
-
-.form button {
-    width: 30%;
-    color: black;
-    background: orange;
-    border: none;
-    border-radius: 0px 5px 5px 0px;
-    padding: 1px 0px 4px 0px;
-    margin-left: -5px;
-    font-size: 3vw;
-}
-}
 
 
 
